@@ -1,0 +1,135 @@
+html	{
+	background-image: url("../images/webbg.png");
+	background-color: #A4D5D6;
+	background-repeat:no-repeat;
+}
+h3 {
+	font-family:'rockwell', 'Arial', Tahoma, Serif;
+	color: #fbac60;
+	border: 2px solid;
+	border-color: #12cedc;
+	margin-top: 0px;  
+	margin-bottom: 0px;
+    text-align: center;
+	background: url("https://i.pinimg.com/originals/1a/bc/4d/1abc4d7f15719e76fa8641f1f57d3751.gif");
+	background-color: #A4D5D6;
+}
+.topnav p {
+	float: left;
+	font-family:'rockwell', 'Arial', Tahoma, Serif;
+	border: 1px solid;
+	border-color: #FDC56D;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    padding-left:7px;
+    width: 250px;
+	margin-top: 0px;
+    margin-bottom: 10px; 
+    text-align: center;	
+}
+ul {
+  list-style-type: none;
+  font-family: 'rockwell', 'Arial', Tahoma, Serif;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+li a{
+	display: inline;
+	text-decoration:none;
+	display: block;
+	padding:5px 21px;
+	background:#90CCDE;
+	color: black;
+	float:left;
+	text-align:center;
+}
+li a:visited {
+	color: #3C91EB;
+}
+li a:hover {
+	background:#90DEC0;
+	color:#000;
+	border:2px solid #FDC56D;
+}
+#logo {
+	padding-top: 20px;
+}
+
+img{
+	border: 3px dotted;
+	border-color: black;
+}
+.slogan h1 {
+	font-family:'Comic Sans MS', 'Arial', Tahoma, Cursive;
+	font-size: 50px;
+	margin-bottom: 1px;
+}
+.slogan p {
+	text-align: right;
+	padding-top: 0px;
+	margin-top: -30px;
+	margin-bottom: 40px;
+	margin-right: 350px;
+}
+.slogan p {
+	font-family: 'rockwell', 'Arial', Tahoma, Serif;
+	font-size: 15px;
+}
+.row {
+	float: left;
+	width: 33.33%;
+	margin-bottom: 20px;
+}
+.column {
+	font-family: 'Bodoni MT', 'Arial', Tahoma, Serif;
+	background-color: #ADD8E6;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 2px solid #53b1d0;
+	border-radius: 15px;
+	height: 350px;
+}
+	
+.column img {
+	border: 2px dashed;
+	border-color: #FDC56D;
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+	transition-duration: 0.75sx;
+}
+.column button {
+	background-color: #FDEBD0;
+	border: none;
+	display: inline-block;
+    padding: 11px 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: 0 5px #999;
+}
+.column button:hover {
+	background-color: #FAD7A0;
+}
+.column button:active {
+  background-color: #FAD7A0;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr {
+	height: 2px;
+    background-color: #ffff;
+    border: none;
+}
+
