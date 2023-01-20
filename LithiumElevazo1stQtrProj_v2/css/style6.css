@@ -81,11 +81,15 @@ footer {
 #fb:hover{
 	color: #390e53;
 	border: 3px outset rgba(248, 203, 175, 0.99);
+	padding: 0;
 	background: url('../images/sprite.png') no-repeat -331px -355px;
 	width: 264px;
 	height: 264px;
 }
-
+#fb:active{
+	border: 3px outset rgba(248, 203, 175, 0.99);
+	border-radius: 50%
+}
 #twt{
 	background-color: #90d7db;
 	border: 3px outset rgba(248, 203, 175, 0.99); 
@@ -97,9 +101,14 @@ footer {
 #twt:hover{
 	color: #390e53;
 	border: 3px outset rgba(248, 203, 175, 0.99);
+	padding: 0;
 	background:url("../images/sprite.png") no-repeat -646px -355px;
 	width: 264px;
 	height: 264px;	
+}
+#twt:active{
+	border: 3px outset rgba(248, 203, 175, 0.99);
+	border-radius: 50%
 }
 #ig{
 	background-color: #90d7db;
@@ -111,11 +120,15 @@ footer {
 #ig:hover{
 	color: #390e53;
 	border: 3px outset rgba(248, 203, 175, 0.99);
+	padding: 0;
 	background:url("../images/sprite.png")no-repeat -961px -355px;
 	width: 263px;
 	height: 264px;
 }
-
+#ig:active{
+	border: 3px outset rgba(248, 203, 175, 0.99);
+	border-radius: 50%
+}
 #gmail{
 	background-color: #90d7db;
 	border: 3px outset rgba(248, 203, 175, 0.99);
@@ -126,7 +139,12 @@ footer {
 #gmail:hover{
 	color: #390e53;
 	border: 3px outset rgba(248, 203, 175, 0.99);
+	padding: 0;
 	background:url("../images/sprite.png") no-repeat -1279px -375px;
 	width: 307px;
 	height: 226px;
+}
+#gmail:active{
+	border: 3px outset rgba(248, 203, 175, 0.99);
+	border-radius: 50%
 }
