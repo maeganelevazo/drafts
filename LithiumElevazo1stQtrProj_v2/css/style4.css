@@ -49,28 +49,24 @@ section{
 	float: right;
 	padding-top: 5px;
 	padding-left: 20px;
+	padding-bottom: 20px;
 }
 h2 {
 	font-family:'Georgia', Times, serif;
 	font-weight: normal;
 	padding-left: 20px;
 }
-article p {
+.content article {
 	font-family: 'Candara', 'Arial', Sans-serif;
+	padding-bottom: 20px;
 }
-article {
+.content {
 	border: 1px solid #4acfc8;
 	background-color:#d0f4f2;
 }
-#spriteContainer {
-  width: 300px;
-  height: 300px;
-  display: block;
-  background-image: url("images/gfblogo.png");
-}
 hr {
 	height: 2px;
-    background-color: #ff7711;
+    background-color: white;
     border: none;
 }
 

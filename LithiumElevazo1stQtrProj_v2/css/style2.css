@@ -39,21 +39,6 @@ li a:hover {
 	color:#000;
 	border:2px solid #FDC56D;
 }
-.topnav p {
-	float: left;
-	font-family:'rockwell', 'Arial', Tahoma, Serif;
-	border: 1px solid;
-	border-color:#FDC56D;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-right: 7px;
-    padding-left:7px;
-    width: 250px;
-	margin-top: 0px;
-    margin-bottom: 10px; 
-    text-align: center;	
-}
-
 .title2 img{
 	border: 3px dotted;
 	border-color: black;
@@ -96,7 +81,11 @@ hr {
 span {
 	background-color: white;
 }
-
+hr {
+	height: 2px;
+    background-color: #ffff;
+    border: none;
+}
 
 
 

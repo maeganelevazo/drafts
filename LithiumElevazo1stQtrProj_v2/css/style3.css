@@ -14,7 +14,7 @@ h3 {
 	background: url("https://i.pinimg.com/originals/1a/bc/4d/1abc4d7f15719e76fa8641f1f57d3751.gif");
 	background-color: #A4D5D6;
 }
-header ul {
+ul {
   list-style-type: none;
   font-family: 'rockwell', 'Arial', Tahoma, Serif;
   margin: 0;
